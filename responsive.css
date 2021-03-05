@@ -1,0 +1,220 @@
+
+/* Media querys */
+@media screen and (min-width: 1440px){
+
+    .section-styles{
+        padding: 3em;
+    }
+
+    /* Header */
+    .header{
+        height: 110px;
+    }
+    .header-grid{
+        padding: 0 10em;
+        width: 100%;
+        height: 110px;
+        background: linear-gradient(180deg, rgba(0,0,0,.5) 0%, rgba(255,255,255,0) 100%);
+    }
+
+    /* Menu */
+    .menu{
+        background: transparent;
+        display: block;
+        position: relative;
+    }
+    .menu-button{
+        display: none;
+    }
+    .menu{
+        display: grid;
+        height: initial;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        padding: 0;
+        list-style-type: none;
+        top: 0;
+        width: auto;
+    }
+    .menu-item{
+        text-align: center;
+        padding: 0;
+        
+    }
+    .menu-item a{
+        color: white;
+        display: inline-block;
+        background: transparent;
+        border-bottom: none;
+        padding: 0;
+        font-weight: lighter;
+    }
+    
+   /* Hero */
+   .hero{
+       height: 400px;
+       background-image: url("images/image-hero-desktop.jpg");
+       background-position: center;
+   }
+
+   /* Main  */
+   .main{
+        width: 729px;
+   }
+
+   /* Mastercraft  */
+   .mastercraft{
+        top: -6em;
+        padding: 3em;
+        margin-bottom: -6em;
+   }
+   
+   .mastercraft-logo{
+       top: -80px;
+       margin-bottom: -80px;
+   }
+   .mastercraft-buttons{
+       margin-top: 2em;
+   }
+
+   .mastercraft-buttons-button-bookmark{
+       width: 175px;
+       border-radius: 30px;
+       display: flex;
+       align-items: center;
+   }
+   .mastercraft-buttons-button-bookmark span{
+       margin-left: 15px;
+       font-weight: bold;
+       display: block;
+   }
+   
+   /* statistic */
+   .statistic-wrapper{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+   }
+   .statistic-divider-mobile{
+       display: none;
+   }
+
+   .statistic-container{
+       border-right: 1px solid #e2e2e2;
+       text-align: left;
+       padding-left: 2.5em;
+   }
+   .statistic-container:first-child{
+        padding-left: 0em;
+   }
+   .statistic-container:last-child{
+       border-right: none;
+   }
+
+   /* About */
+   .about-text{
+       font-size: 1em;
+       line-height: 1.9;
+   }
+
+   /* Card */
+   .card{
+       padding: 2em;
+   }
+   .card-header{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+   .card-price{
+       margin: 0;
+   }
+   .card-text{
+       font-size: 1em;
+   }
+   .card-statistic{
+       font-size: 1em;
+   }
+   .card-statistic-buttons{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       margin-top: 1.5em;
+   }
+   .card-statistic-buttons > *{
+       margin-top: 0;
+   }
+
+   /* Modal */
+   .modal-header-title{
+       font-size: 1.7em;
+   }
+   .modal-content{
+       width: 729px;
+       padding: 3.2em;
+   }
+   .modal-content-small{
+       width: 538px;
+       height: 455px;
+       position: absolute;
+       left: 0;
+       right: 0;
+       top: 0;
+       bottom: 0;
+       margin: auto;
+   }
+   .modal-header img{
+       width: 17px;
+       height: 17px;
+   }
+   .modal-card-checkbox{
+       display: grid;
+       grid-template-columns: 1fr 80px;
+   }
+
+   .modal-cards{
+       margin-top: 1.8em;
+   }
+   .modal-card-statistic{
+       display: none;
+   }
+   .modal-card-description{
+       margin-left: 2.5em;
+       font-size: .95em;
+   }
+   .modal-card-statistic-desktop{
+       display: block;
+       display: flex;
+       margin-top: 0;
+       align-items: center;
+   }
+   .modal-card-checkbox-check-wrapper label{
+       display: flex;
+       align-items: center;
+   }
+   .modal-card-checkbox-check-wrapper label span{
+        margin-top: 0;
+        margin-left: 1em;
+   }
+
+   .modal-card-section-pledge-form{
+        display: grid;
+        grid-template-columns: 1fr 225px;
+        align-items: center;
+        padding: 1em 2em;
+    }
+    .modal-card-section-enter{
+        text-align: left;
+    }
+    .modal-logo img{
+        width: 90px;
+        height: 90px;
+    }
+
+    /* Modal small */
+    .modal-small-title{
+        margin-top: 2em;
+    }
+    .modal-small-text{
+        font-size: 1em;
+    }
+}
